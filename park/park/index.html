@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parking Lot</title>
+</head>
+<body>
+    <h1>Parking Lot</h1>
+    <form action="ParkingLotServlet" method="post">
+        Registration Number: <input type="text" name="registrationNumber"><br>
+        Color: <input type="text" name="color"><br>
+        <input type="submit" value="Add Vehicle">
+    </form>
+    <br>
+    <form action="ParkingLotServlet" method="get">
+        Search by Registration Number: <input type="text" name="registrationNumber"><br>
+        <input type="submit" value="Search">
+    </form>
+    <br>
+    <form action="ParkingLotServlet" method="get">
+        Search by Color: <input type="text" name="color"><br>
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>

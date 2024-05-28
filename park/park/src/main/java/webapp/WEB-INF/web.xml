@@ -1,0 +1,20 @@
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <servlet>
+        <servlet-name>AddVehicleServlet</servlet-name>
+        <servlet-class>com.parkinglot.AddVehicleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddVehicleServlet</servlet-name>
+        <url-pattern>/addVehicle</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchVehicleServlet</servlet-name>
+        <servlet-class>com.parkinglot.SearchVehicleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchVehicleServlet</servlet-name>
+        <url-pattern>/searchVehicle</url-pattern>
+    </servlet-mapping>
+</web-app>
